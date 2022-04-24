@@ -8,7 +8,7 @@ type Props = {
 
 export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="Uko bakiina" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="Uko bakina" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
       Gerageza kutombora ijambo inshuro zitarenze 6, 
       ibara rya buri nyuguti ry'ijambo rira hinduka, 
@@ -28,7 +28,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="I" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Inyuguti W iri mu ijambo kandi iri mumwanya nyawo.
+        Inyuguti I iri mu ijambo kandi iri mumwanya nyawo.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
@@ -44,7 +44,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="A" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Inyuguti L iri mu ijambo ariko ntiritondetse neza (riri mumwanya utariwo).
+        Inyuguti I iri mu ijambo ariko ntiritondetse neza (riri mumwanya utariwo).
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
@@ -55,7 +55,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="I" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Inyuguti U ntago iri mu ijambo mugomba gutombora.
+        Inyuguti Z ntago iri mu ijambo mugomba gutombora.
       </p>
     </BaseModal>
   )
