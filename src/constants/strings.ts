@@ -7,7 +7,7 @@ export const WORD_NOT_FOUND_MESSAGE = 'Ijambo ntiryabonetse'
 export const HARD_MODE_ALERT_MESSAGE =
   'Uburyo bukomeye bushoboka gusa mugitangira!'
 export const HARD_MODE_DESCRIPTION =
-  'Ibimenyetso byose byerekanwe bigomba gukoreshwa mumagambo byakurikiyeho'
+  'Umukino ukomeza, iyi mode biba bigoye kubona ijambo'
 export const HIGH_CONTRAST_MODE_DESCRIPTION = 'Gushyiramo amabara agaragara neza'
 export const CORRECT_WORD_MESSAGE = (solution: string) =>
   `Ijambo ryari ${solution}`
@@ -23,5 +23,5 @@ export const NEW_WORD_TEXT = 'Ijambo rishya muri'
 export const SHARE_TEXT = 'Sangira nabandi (share)'
 export const TOTAL_TRIES_TEXT = 'Inshuro zose zageragejwe'
 export const SUCCESS_RATE_TEXT = 'amagambo mwahisemo neza'
-export const CURRENT_STREAK_TEXT = 'Current streak'
-export const BEST_STREAK_TEXT = 'Best streak'
+export const CURRENT_STREAK_TEXT = 'Ijambo mwahisemo ubu'
+export const BEST_STREAK_TEXT = 'Ijambo mwahisemo neza'
