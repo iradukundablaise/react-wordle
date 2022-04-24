@@ -8,9 +8,9 @@ type Props = {
 
 export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="Uko bakiina" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-      Fongombora ijambo inshuro zitarenze 6, 
+      Gerageza kutombora ijambo inshuro zitarenze 6, 
       ibara rya buri nyuguti ry'ijambo rira hinduka, 
       rikwereka niba uri hafi yo gutombora ijambo.
       </p>
@@ -19,40 +19,40 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="W"
+          value="I"
           status="correct"
         />
-        <Cell value="E" />
+        <Cell value="S" />
         <Cell value="A" />
-        <Cell value="R" />
-        <Cell value="Y" />
+        <Cell value="Z" />
+        <Cell value="I" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Inyuguti W iri mu ijambo kandi iri mumwanya nyawo.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="P" />
         <Cell value="I" />
+        <Cell value="R" />
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="L"
+          value="I"
           status="present"
         />
-        <Cell value="O" />
-        <Cell value="T" />
+        <Cell value="B" />
+        <Cell value="A" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Inyuguti L iri mu ijambo ariko ntiritondetse neza (riri mumwanya utariwo).
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="V" />
-        <Cell value="A" />
-        <Cell value="G" />
-        <Cell isRevealing={true} isCompleted={true} value="U" status="absent" />
-        <Cell value="E" />
+        <Cell value="U" />
+        <Cell value="R" />
+        <Cell value="U" />
+        <Cell isRevealing={true} isCompleted={true} value="Z" status="absent" />
+        <Cell value="I" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Inyuguti U ntago iri mu ijambo mugomba gutombora.
